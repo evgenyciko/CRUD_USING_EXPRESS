@@ -9,7 +9,7 @@
 
  Instruction :
  ========================
- 1. Run server by typing "npm start" (if you use nodemon) or "node app.js"
+ 1. Run server with your terminal by typing "npm start" (if you use nodemon) or "node app.js"
  2. Open url localhost:9000 to your browser for open the homepage with style.![Screenshot_1](https://user-images.githubusercontent.com/104311677/177045529-aca015bc-e8bd-41cf-b14e-a165df6eaa23.png) 
  3. Click Play Now and it will automatically redirect to the suit game page.
  4. Open path localhost:9000/users with Postman using POST method and input "nama: username, pass: yourpassword" to register your account.![Screenshot_2](https://user-images.githubusercontent.com/104311677/177045697-00fb1d37-67b3-40b2-9f2e-d7373f5f65aa.png)
