@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/suit.css">
+  </head>
+  <body style="background-color: #9C835F;">
+    <div class="container-fluid">
+        <div class="nav">
+            <div class="row">
+                <div class="col-md-1 col-sm-1 back">
+                    <a href="/"><h1><</h1></a>
+                </div>
+                <div class="col-md-2 col-sm-2 mt-2">
+                    <img src="./assets/batu.png" width="80" height="60" class="img-fluid img-responsive">
+                </div>
+                <div class="col-md-9 com-sm-9 mt-2" style="color: #F9B23D;">
+                    <h3>ROCK PAPER SCISSORS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="game">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="box align-items-center">
+                    <div>
+                        <ul>
+                            <li><span class="d-flex justify-content-center">P1</span></li>
+                            <li><button class="dissap user-tool" id="rock-user"><img src="./assets/batu.png" width="80" height="60" class="img-fluid img-responsive"></button></li>
+                            <li><button class="dissap user-tool" id="scissor-user"><img src="./assets/gunting.png" width="80" height="60" class="img-fluid img-responsive"></button></li>
+                            <li><button class="dissap user-tool" id="paper-user"><img src="./assets/kertas.png" width="80" height="60" class="img-fluid img-responsive"></button></li>
+                        </ul>
+                    </div>
+                    <div id="box" class="Versus-Reset">
+                        <h5 id="test" class="vs"></h5>
+                    </div>
+                    <div>
+                        <ul class="com">
+                            <li><span class="d-flex justify-content-center">com</span></li>
+                            <li><button class="dissap user-tool" id="rock-com"><img src="./assets/batu.png" width="80" height="60" class="img-fluid img-responsive"></button></li>
+                            <li><button class="dissap user-tool" id="scissor-com"><img src="./assets/gunting.png" width="80" height="60" class="img-fluid img-responsive"></button></li>
+                            <li><button class="dissap user-tool" id="paper-com"><img src="./assets/kertas.png" width="80" height="60" class="img-fluid img-responsive"></button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button>
+                    <img id="refresh" src="./assets/refresh.png" width="80" height="60" class="img-fluid img-responsive">
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="/js/suit.js"></script>
+  </body>
+</html>

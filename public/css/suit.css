@@ -1,0 +1,130 @@
+.nav {
+    background-color: #9C835F;
+}
+
+/* .back span {
+    font-size: 3rem;
+    color: beige;
+} */
+
+.back a {
+    text-decoration: none;
+    color: #724C21;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.box ul li {
+    margin: 80px;
+    list-style-type: none;
+}
+
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.box img {
+    min-width: 50px;
+    min-height: 40px;
+}
+
+button:hover img {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    transform: scale(1.2, 1.2);
+    filter: brightness(130%);
+}
+
+.com {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* nav */
+.Versus-Reset {
+    margin: 20px 10px;
+}
+
+/* .Versus-Reset h1 {
+    font-size: 44px;
+    color: var(--versus);
+    font-weight: var(--bold);
+} */
+
+ /* Js Class */
+
+.chosen {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    transform: scale(1.2, 1.2);
+    filter: brightness(130%);
+    
+}
+
+.win:before {
+    content: "Win";
+    font-size: max(4vw, 30px);
+    color:white;
+    text-transform: uppercase;
+    background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lose:before {
+    content: "Lose";
+    font-size: max(4vw, 30px);
+    color:white;
+    text-transform: uppercase;
+    background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.draw:before {
+    content: "Draw";
+    font-size: max(4vw, 30px);
+    color:white;
+    text-transform: uppercase;
+    background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vs:before {
+    content: "VS";
+    font-size: max(4vw, 30px);
+    color:rgb(255, 0, 0);
+    /* background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+    transform: rotateX(145deg); */
+}
+
+
+/* desktop ver */
+
+@media (min-width: 992px) {
+    .box {
+        display: flex;
+        align-items: stretch;
+      }
+    
+    .box ul li {
+        margin: 80px;
+        padding: auto;
+    }
+}
