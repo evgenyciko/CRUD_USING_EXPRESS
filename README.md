@@ -27,4 +27,4 @@
  7. Open path localhost:9000/users with Postman using GET method for see all users. Example : ![Screenshot_5](https://user-images.githubusercontent.com/104311677/177046471-2a09ceae-f434-41af-a6d8-42becfb6e1e1.png)
  8. Open path localhost:9000/users/username with Postman using GET method for see all data user. Example : ![Screenshot_6](https://user-images.githubusercontent.com/104311677/177046529-e6f1ff24-69e8-452a-8970-29a4aaf2c0a6.png)
 
-# Note: Instruction 1 & 2 only work using browser (Chrome, Mozzila, Edge, Etc).
+# Note: Instruction 2 & 3 only work using browser (Chrome, Mozzila, Edge, Etc).
